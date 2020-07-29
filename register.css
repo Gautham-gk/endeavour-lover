@@ -1,0 +1,91 @@
+.one{
+    font-size:100px;
+}
+.one ,.two{
+    
+	text-align:center;
+	width:500px;
+	margin:auto; 
+	color:hsl(250,70%,30%); 
+	font-family:algerian;
+	margin-bottom:30px;
+	text-shadow:2px 2px 3px red; 
+}
+img{
+	padding-right:20px; 
+}
+
+ul{ padding-top:20px;
+	font-family: 'Roboto Slab', serif;
+	 padding-bottom:20px;
+	list-style-type:none;
+
+
+}
+
+li{ 
+	width:75px;
+		border-height:40px;
+	color:hsl(0,70%,30%); 
+	font-size:30px; 
+	display:inline;
+	padding-left:5.5%;
+	padding-right:5.5%;
+	border:2px solid black; 
+
+	border-radius:20px;
+
+}
+
+
+
+.reg{
+	text-align:center;
+	color:hsl(250,70%,30%); 
+	font-family:algerian;
+	padding-bottom:30px;
+	text-shadow:2px 2px 3px red; 
+}
+#username,#email,#phoneno,#dob
+{
+	width:200px;
+}
+label{
+   padding-left:100px;
+}
+
+li{
+	margin-bottom:20px;
+}
+
+.button{
+	margin-left:46%;
+    width:70px;
+     margin-top:15px;
+}
+.checkbox{
+ max-width:50px;
+	margin-left:30%;
+	margin-right:0px;
+}
+#t_and_c{
+	margin-left:6%;
+}
+#name_error_msg {
+	padding-left:26%;
+	color:red; 
+}
+#email_error_msg{
+	padding-left:77%; 
+		color:red;
+}
+footer{
+	font-size:150%;
+	width:97.5vw;
+	height:80px;
+	line-height:35px;
+	font-family: 'Roboto Slab', serif;
+	margin-top:1%;
+	margin-bottom:1%;
+   background-color:#999;  
+}

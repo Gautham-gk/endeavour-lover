@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" type="text/css" href="register.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Registration</title>
+  </head>
+  <body>
+	
+  <h1 class="one">
+  <img src="https://img.icons8.com/fluent/48/000000/to-do.png"/>DO IT
+</h1>
+	<h3 class="two"> A Simple To DO list App</h3>	
+
+
+  <ul>
+  	<div class="row">
+    <div class="col-sm-3"><li> <a href="To Do list.html" class="font-weight-bold amber-lighter-hover mb-3"> Home </a> </li>	</div>
+    <div class="col-sm-3 font-weight-bold amber-lighter-hover mb-3" ><li> <a href="Register.html"> Register </a> </li>	</div>
+    <div class="col-sm-3"><li> <a href="list.html" class="font-weight-bold amber-lighter-hover mb-3"> Your List </a> </li></div>	
+    <div class="col-sm-3"><li> <a href="about.html" class="font-weight-bold amber-lighter-hover mb-3"> About Us </a> </li></div>
+  </ul>
+    </div> 
+	
+    
+ <h1 class="reg">Register Your Account</h1>	
+<div class="row">
+	<div class="col-sm-3">
+   <label name="username"> Name </label>
+    </div>
+    </br>
+
+   
+   	<div class="col-sm-3">
+ <input type="text" name="username" id="username" placeholder="Name" title="Enter your name here" >
+    </div>
+
+    <div class="col-sm-3">
+ <label name="email">    Email </label>
+    </div>
+    <div class="col-sm-3">    
+ <input type="text" name="email" id="email" placeholder="Email" title="Enter your email here">
+    </div>
+
+    <div class="col-sm-12">
+   <span id="name_error_msg" onkeyup="hideval(name_error_msg)"></span>
+   <span id="email_error_msg"></span>
+     </div>    
+ 
+       <div class="col-sm-3">
+ <label name="phoneno"> Phone Number </label>
+      </div>
+
+     <div class="col-sm-3">
+ <input type="text" name="phoneno" id="phoneno" placeholder="Phone Number" title="Enter your Phone Number here">
+    </div>
+  
+        <div class="col-sm-3">
+ <label name="email">Date Of Birth</label>
+    </div>
+    <div class="col-sm-3">    
+ <input type="date" name="dob" id="dob" placeholder="dd/mm/yyyy" title="Enter your Date Of Birth here">
+    </div>
+    <span class="checkbox"> 
+    <input type="checkbox" name="t_and_c">
+    </span>
+    	<span id="t_and_c">
+    I accept <a href="">terms and conditions</a>
+    </span>
+
+
+
+<div class="button">
+<button onclick="validate()"  class="btn btn-default btn-primary">
+	Submit
+</button>
+
+</div>
+<footer class="text-center">
+  &copy;
+  <br/>
+  Developed With &hearts; in India
+</footer>
+<script type="text/javascript" src="register.js"></script>
+</body>
+</html>
